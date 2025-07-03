@@ -3,30 +3,31 @@
     --card-front-color: #144480;
     --card-back-color: #00F4BF;
 }
-body{
-   background: url(img/personagem-de-ilustracao-do-homem-vilao-em-um-fundo-escuro_800563-4119.avif); 
+
+body {
+    background: url('img/personagem-de-ilustracao-do-homem-vilao-em-um-fundo-escuro_800563-4119.avif');
     font-family: Bai Jamjuree;
 }
 
 #container {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-padding: 4rem;
-gap: 3rem;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 3rem;
 }
 
 .cartao {
     margin: 1rem 1rem;
     height: 20rem;
     flex-grow: 1;
-    flex-basis: calc(33% -6rem);
+    flex-basis: calc(33% - 6rem);
 }
 
-.cartao__conteudo{
-    background-color: var(--card-front-color) ;
+.cartao__conteudo {
+    background-color: var(--card-front-color);
     text-align: center;
-    /*background-color: aquamarine; */
+    /* background-color: aquamarine; */
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
@@ -43,17 +44,9 @@ gap: 3rem;
     font-size: 1vw;
     backface-visibility: hidden;
 }
-footer{
-    background-color: black;
-    color: aliceblue;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 2rem
-}
 
 .cartao__conteudo p {
-    margin: 1rem;
+    margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
 }
@@ -69,10 +62,10 @@ footer{
 }
 
 .cartao:hover .cartao__conteudo {
-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
-
+.cartao__conteudo__pergunta,
 .cartao__conteudo__resposta {
     backface-visibility: hidden;
     position: absolute;
@@ -89,6 +82,20 @@ transform: rotateY(180deg);
 
 
 
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
 
 footer p {
     text-align: center;
