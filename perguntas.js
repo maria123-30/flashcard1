@@ -15,3 +15,9 @@ criaCartao(
     'Qual é a capital da Argentina?',
     'A capital é Buenos Aires'
 )
+
+criaCartao(
+    'lingua inglesa',
+    'como e diz oi em Inglês?',
+    'oi em ingles é HI'(RAI)
+)
