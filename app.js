@@ -7,10 +7,10 @@ function criaCartao(categoria, pergunta, resposta) {
   <div class="cartao__conteudo">
   <h3>${categoria}</h3>
   <div class="cartao__conteudo__pergunta">
-      <p>Qual é a capital do Paraná?</p>
+      <p>${pergunta}</p>
   </div>
   <div class="cartao__conteudo__resposta">
-      <p>A capital é Curitiba</p> 
+      <p>${resposta}</p> 
   </div>
   </div>
   `
