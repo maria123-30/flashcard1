@@ -17,7 +17,7 @@ criaCartao(
 )
 
 criaCartao(
-'lingua inglesa',
+'Lingua inglesa',
 'como e diz oi em Inglês?',
 'oi em ingles é HI'(RAI)
 )
