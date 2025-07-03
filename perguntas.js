@@ -16,8 +16,8 @@ criaCartao(
     'A capital é Buenos Aires'
 )
 
-criaCartao(
-'Lingua inglesa',
-'como e diz oi em Inglês?',
-'oi em ingles é HI'(RAI)
-)
+    criaCartao(
+    'Lingua inglesa',
+    'Como se diz OI em inglês?',
+    'Oi em ingles é HI (RAI)'
+) 
